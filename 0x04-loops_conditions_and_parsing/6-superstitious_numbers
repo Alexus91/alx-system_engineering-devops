@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#displays different messages based on the loop iteration
+
+ct=1
+while [ $ct -le 20 ]; do
+    case $ct in
+        4)
+            echo "$ct"
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "$ct"
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "$ct"
+            echo "bad luck from Italy"
+            ;;
+        *)
+            echo "$ct"
+            ;;
+    esac
+    ct=$((ct + 1))
+done
