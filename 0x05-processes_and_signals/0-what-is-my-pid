@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
+# This is a script shows PID of the current
 
-# Display the current PID
-echo $$ 
+echo $$
