@@ -1,5 +1,5 @@
 ### 0. Simple web stack 
-https://raw.githubusercontent.com/Alexus91/alx-system_engineering-devops/master/0x09-web_infrastructure_design/0.%20Simple%20web%20stack%20.png
+![alt text](https://raw.githubusercontent.com/Alexus91/alx-system_engineering-devops/master/0x09-web_infrastructure_design/0.%20Simple%20web%20stack%20.png)
 
 
 ## Server:
