@@ -1,5 +1,5 @@
-###0x09. Web infrastructure design
-##Concepts
+### 0x09. Web infrastructure design
+## Concepts
 
 For this project, we expect you to look at these concepts:
 
@@ -9,7 +9,7 @@ For this project, we expect you to look at these concepts:
     Network basics
     Load balancer
     Server
-##Resources
+## Resources
 
 Read or watch:
 
@@ -27,13 +27,13 @@ Read or watch:
     High availability cluster (active-active/active-passive)
     What is HTTPS
     What is a firewall
-##General
+## General
 
     You must be able to draw a diagram covering the web stack you built with the sysadmin/devops track projects
     You must be able to explain what each component is doing
     You must be able to explain system redundancy
     Know all the mentioned acronyms: LAMP, SPOF, QPS
-##Requirements
+## Requirements
 General
 
     A README.md file, at the root of the folder of the project, is mandatory
