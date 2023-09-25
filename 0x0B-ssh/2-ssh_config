@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# SSH client configuration
+
+# GSSAPIDelegateCredentials no
+# IdentityFile ~/.ssh/school
+# PasswordAuthentication no
+
+    HostName 34.207.120.94
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
+    PubKeyAuthentication yes
+
+# newline
+
