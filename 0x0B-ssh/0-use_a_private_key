@@ -2,3 +2,4 @@
 # Connect to the server using ssh with the private key
 
 ssh -i ~/.ssh/school ubuntu@34.207.120.94
+
