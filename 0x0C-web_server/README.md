@@ -1,4 +1,4 @@
-### 0x0C. Web server
+# 0x0C. Web server
 ## Background Context
 In this project, some of the tasks will be graded on 2 aspects:
 
@@ -50,25 +50,25 @@ man or help:
     scp
     curl
 ## Learning Objectives
-# General
+### General
 
     What is the main role of a web server
     What is a child process
     Why web servers usually have a parent process and child processes
     What are the main HTTP requests
-# DNS
+### DNS
 
     What DNS stands for
     What is DNS main role
 
-# DNS Record Types
+### DNS Record Types
 
     A
     CNAME
     TXT
     MX
 
-# Copyright - Plagiarism
+### Copyright - Plagiarism
 
     You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
     You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
@@ -76,7 +76,7 @@ man or help:
     Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
 ## Requirements
-# General
+### General
 
     Allowed editors: vi, vim, emacs
     All your files will be interpreted on Ubuntu 16.04 LTS
