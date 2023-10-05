@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# restores the default server port
+# script restores the default server port
 
 serv_str="listen 8080 default_server;"
 new_str="listen 80 default_server;"
