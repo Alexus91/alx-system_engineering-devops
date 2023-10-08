@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Update the package list and install Nginx
 sudo apt-get update
 sudo apt-get install nginx -y
 
-# Configure Nginx to include the custom header
+# Configure Nginx to include custom header
 echo 'server {
     listen 80 default_server;
     server_name _;
@@ -17,10 +17,10 @@ echo 'server {
     # Your other server configurations here
 }' | sudo tee /etc/nginx/sites-available/default
 
-# Test the Nginx configuration
+# Test Nginx
 sudo nginx -t
 
-# If the configuration test is successful, reload Nginx
+# reload Nginx
 if [ $? -eq 0 ]; then
     sudo systemctl reload nginx
 else
