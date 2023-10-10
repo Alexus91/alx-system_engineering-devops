@@ -1,4 +1,5 @@
-global
+
+bal
         log /dev/log    local0
         log /dev/log    local1 notice
         chroot /var/lib/haproxy
@@ -34,7 +35,7 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend http_front
-        bind *:80
+        bind *:433 sll crt /etc/letsencrypt/live/www.iwavehub.tech/fullchain.pem
         mode http
         default_backend http_back
 
